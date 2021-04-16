@@ -1,6 +1,8 @@
 package com.questioanswer.postgresdemo.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "questions")
